@@ -13,11 +13,8 @@ from dotenv import load_dotenv, find_dotenv
 # Loading env files
 load_dotenv(find_dotenv(), override=True)
 
-
-# Token for test bot (https://t.me/Supersede_test_bot)
 token = os.environ.get("TELEGRAM_BOT_TESTING_KEY")
 
-# Token for bot submitted by Snv Dev (https://t.me/Boxpark_CustomerServiceBot)
 token2 = os.environ.get("TELEGRAM_BOT_MAIN_KEY")
 url = "http://127.0.0.1:8000/"
 
